@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin</title>
+</head>
+<body>
+    <h1>Database</h1>
+    <table>
+        {% for user in range(listlength) %}
+        <TR>
+            <TD>{{ userlist[user][0] }}</TD>
+            <TD>{{ userlist[user][1] }}</TD>
+            <TD>{{ userlist[user][2] }}</TD>
+            <TD>{{ userlist[user][3] }}</TD>
+        </TR>
+        {% endfor %}
+    </table>
+</body>
+</html>

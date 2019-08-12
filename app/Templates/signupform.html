@@ -1,0 +1,83 @@
+<style>
+        h3 {
+          color: white;
+          text-align: left;
+        }
+  
+        h5 {
+          padding: 20px 0px 20px 0px;
+          color: white;
+          font-family: 'Nunito';
+          text-align: left;
+        }
+  
+        .textinput, select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 11px 0;
+          border: 2px solid white;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+  
+        .submitbutton {
+          width: 100%;
+          background-color: #254763;
+          color: white;
+          padding: 14px 0px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+  
+        input[type=submit]:hover {
+          background-color: #234561;
+        }
+  
+        .signup {
+          border-radius: 5px;
+          background-color:#333333;
+          padding: 30px;
+          width: 80%;
+          margin: auto;
+          margin-bottom: 150px;
+          margin-top: 170px;
+        }
+  </style>
+  
+  <div class="signup">
+      <h3>Sign up to AntiGram</h3>
+      <h5>Enter a username and password</h5>
+  
+      <!-- Flask form entry -->
+      <form action="" method="POST" novalidate>
+          <!-- automatically stops CSRF attacks when combined with the config SECRET_KEY -->
+          {{ form.hidden_tag() }}
+          
+          {% if usernameTaken %}
+          <span style="color:red;">Username is taken</span>
+          {% endif %}
+
+          {% if passwordMatch == False %}
+          <span style="color:red;">Please ensure passwords match</span>
+          {% endif %}
+  
+          {{ form.username(class_='textinput', placeholder="username") }}
+          {% for error in form.username.errors %}
+          <span style="color:red;">[{{ error }}]</span>
+          {% endfor %}
+          
+          {{ form.password1(class_='textinput', placeholder="password") }}
+          {% for error in form.password1.errors %}
+          <span style="color:red;">[{{ error }}]</span>
+          {% endfor %}
+
+          {{ form.password2(class_='textinput', placeholder="password again") }}
+          {% for error in form.password2.errors %}
+          <span style="color:red;">[{{ error }}]</span>
+          {% endfor %}
+          
+          {{ form.submit(class_='submitbutton', value="Sign Up") }}
+      </form>
+    </div>
