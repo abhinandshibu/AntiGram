@@ -1,4 +1,4 @@
 # AntiGram
-CTF
+A simple web application designed as a CTF (capture the flag).
 
-This is a cool project
+Try find and exploit the vulnerabilities!
