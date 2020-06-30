@@ -4,7 +4,6 @@ A simple web application designed as a CTF (capture the flag) to increase awaren
 ## Contents
 * [Purpose](#purpose)
 * [Setup](#setup)
-* [Purpose](#purpose)
 * [Vulnerabilities (answers)](#vulerabilities-(answers))
 * [License](#license)
 
