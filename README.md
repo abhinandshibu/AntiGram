@@ -41,6 +41,9 @@ flask run
 
 Below are the answers to the CTF, please try to find these vulnerabilities yourself first.
 
+Firstly, we start off with the landing page.
+
+<img src="photos/landing.png">
 
 ## License
 
