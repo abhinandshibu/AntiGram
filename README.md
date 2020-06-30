@@ -1,8 +1,6 @@
 # AntiGram
 A simple web application designed as a CTF (capture the flag) to increase awareness about security vulnerabilities.
 
-Try to find and exploit the vulnerabilities! The goal is to gain access to my account.
-
 ## Contents
 * [Purpose](#purpose)
 * [Setup](#setup)
@@ -11,6 +9,9 @@ Try to find and exploit the vulnerabilities! The goal is to gain access to my ac
 * [License](#license)
 
 ## Purpose
+
+Capture the flag is a game where the objective is to find and exploit vulnerabilities to get to an end goal. AntiGram is a CTF and a simple web application that has multiple vulnerabilities (the answers can be found below). The purpose of this game is to increase awareness about specific vulnerabilities in order to prevent developers making these errors, which increases the security of software in general.
+
 ## Setup
 
 ### Mac OS example
