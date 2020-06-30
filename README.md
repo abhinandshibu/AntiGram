@@ -53,7 +53,7 @@ Below is the process to solving the CTF, please try to find these vulnerabilitie
 ### When you click on it, a message appears stating that you are not an admin.
 <img src="images/not_admin.png">
 
-### It should be obvious at this point that you need to gain admin rights. After searching for a while, you may notice the cookies.
+### It should be obvious that you need to gain admin rights and after searching for a while, you may decide to look at the cookies.
 <img src="images/cookies.png">
 
 ### In particular you may notice the userStatus cookie, and this is where you will notice the first two vulnerabilities. 
