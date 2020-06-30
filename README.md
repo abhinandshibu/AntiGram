@@ -3,6 +3,13 @@ A simple web application designed as a CTF (capture the flag) to increase awaren
 
 Try to find and exploit the vulnerabilities! The goal is to gain access to my account.
 
+## Contents
+* [Purpose](#purpose)
+* [Setup](#setup)
+* [Purpose](#purpose)
+* [Vulnerabilities (answers)](#vulerabilities-(answers))
+* [License](#license)
+
 ## Purpose
 ## Setup
 
