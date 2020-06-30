@@ -46,4 +46,4 @@ Below are the answers to the CTF, please try to find these vulnerabilities yours
 
 Copyright © 2020 Abhinand Shibu
 
-This project is licensed under the [MIT License](License).
+This project is licensed under the [MIT License](/LICENSE).
