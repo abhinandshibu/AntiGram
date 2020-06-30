@@ -65,10 +65,10 @@ The data appears as a random string of characters, though at closer inspection y
 In addition, you should never store information such as admin rights in a cookie! If you do, you definitely need backend validation and cross check with the database. Though AntiGram just reads the cookies values when deciding whether you are an admin or not, hence the cookie values can be easily changed to trick the system into believing you are an admin. The decoded userStatus cookie returned False, so it is obvious we should replace it with the encoded value of True.
 
 #### Before
-<img src="images/cookie_before">
+<img src="images/cookie_before.png">
 
 #### After
-<img src="images/cookie_before">
+<img src="images/cookie_after.png">
 
 ### Admin rights allows you to see the database, and this is where you will notice the third vulnerability.
 Although you have gained access to the database, you still need to gain access to my account.
