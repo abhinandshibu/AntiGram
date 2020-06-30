@@ -41,10 +41,7 @@ flask run
 
 Below is the process to solving the CTF, please try to find these vulnerabilities yourself first.
 
-### Start off with the landing page.
-<img src="images/landing.png">
-
-### Move to the sign up page and create an account.
+### From the landing page, move to the sign up page and create an account.
 <img src="images/signup.png">
 
 ### You will be greeted by a welcome page.
