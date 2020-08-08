@@ -86,9 +86,3 @@ More information about these vulnerabilities can be found on the OWASP website. 
 ### Now you just have to log into my account and congrats, you have captured the flag!
 
 <img src="images/flag_captured.png">
-
-## License
-
-Copyright © 2020 Abhinand Shibu
-
-This project is licensed under the [MIT License](/LICENSE).
